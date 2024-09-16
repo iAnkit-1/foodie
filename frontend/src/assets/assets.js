@@ -5,6 +5,9 @@ import linkedin_icon from './linkedin_icon.png'
 import add_icon from './add_icon.png'
 import order_icon from './order_icon.png'
 import profile_image from './profile_image.png'
+import profile_icon from './profile_icon.png'
+import bag_icon from './bag_icon.png'
+import logout_icon from './logout_icon.png'
 import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 import search_icon from './search_icon.png'
@@ -76,6 +79,9 @@ export const assets ={
     play_store,
     app_store,
     cross_icon,
+    profile_icon,
+    bag_icon,
+    logout_icon
 }
 
 export const menu_list = [
@@ -129,23 +135,23 @@ export const food_list = [
         _id: "2",
         name: "Veg salad",
         image: food_2,
-        price: 12,
+        price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad",
     },
 
     {
         _id: "3",
-        name: "Greek salad",
+        name: "Clover salad",
         image: food_3,
-        price: 12,
+        price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad",
     },
 
     {
         _id: "4",
-        name: "Veg salad",
+        name: "Chicken salad",
         image: food_4,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
@@ -154,38 +160,38 @@ export const food_list = [
 
     {
         _id: "5",
-        name: "Greek salad",
+        name: "Lasagna Rolls",
         image: food_5,
-        price: 12,
+        price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad",
+        category: "Rolls",
     },
 
     {
         _id: "6",
-        name: "Veg salad",
+        name: "Peri Peri Rolls",
         image: food_6,
-        price: 12,
+        price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad",
+        category: "Rolls",
     },
 
     {
         _id: "7",
-        name: "Greek salad",
+        name: "Chicken Rolls",
         image: food_7,
-        price: 12,
+        price: 35,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad",
+        category: "Rolls",
     },
 
     {
         _id: "8",
-        name: "Veg salad",
+        name: "Veg Rolls",
         image: food_8,
-        price: 12,
+        price: 25,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad",
+        category: "Rolls",
     },
 
     {
